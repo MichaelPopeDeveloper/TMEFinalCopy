@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/*list-style: none;*/
 }
 blockquote, q {
 	quotes: none;
@@ -78,12 +78,23 @@ table {
 }
 
 .menu-header-text {
-	margin-top: 2%;
-	margin-bottom: 2%;
-font-size: 1.3vw;
+	margin-top: 5%;
+	margin-bottom: 5%;
+font-size: 1vw;
 color: white;
 text-align: center;
 
+}
+
+.center-text {
+	text-align: left;
+}
+
+.contact-content {
+	display: inline-flex;
+	align-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 .menu-line {
@@ -310,6 +321,43 @@ text-align: center;
 	color: blue;
 }
 
+.sub-content-h1 {
+	font-size: 2.3vw;
+	color: blue;
+
+}
+
+.contact-content-h1 {
+	font-size: 2.1vw;
+	color: blue;
+}
+
+.contact-header {
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+.header-content-h1 {
+	font-size: 2.7vw;
+	color: blue;
+}
+
+.contact-container-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.contact-img {
+	width: 46%;
+	height: 46%;
+}
+
 #main-content-h1-membership {
 	font-size: 2vw;
 	color: #FFDF00;
@@ -320,10 +368,6 @@ text-align: center;
 	color: blue;
 }
 
-.benifits li {
-	font-size: 1.8vw;
-	list-style-type: circle;
-}
 
 
 
@@ -341,8 +385,27 @@ text-align: center;
   font-weight: bold;
 }
 
+.orange {
+	color: #FFDF00;
+
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 
 #p-1 {
+max-width: 80%;
+font-size: 1.8vw;
+pointer-events: none;
+}
+
+.benifits {
 max-width: 80%;
 font-size: 1.8vw;
 pointer-events: none;
