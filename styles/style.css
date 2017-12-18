@@ -229,8 +229,8 @@ text-align: center;
 
 .img-header-content {
 	margin-left: 20%;
-	width: 13%;
-	height: 5%;
+	width: 18%;
+	height: 8%;
 }
 
 .message-text {
@@ -352,6 +352,46 @@ text-align: center;
 	color: #FFDF00;
 	font-weight: bold;
 	text-align: left;
+}
+
+.directive-column-container {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.directive-block-container {
+	display: inline-flex;
+	width: 80%;
+	margin-top: 3%;
+	
+}
+
+.directive-text-block {
+	width: 120%;
+	font-size: 1.8vw;
+	border: solid black 1px;
+}
+
+.directive-block-h1 {
+	color: blue;
+	font-size: 3vw;
+}
+
+.directive-benifits-h1 {
+	color: blue;
+	font-size: 3vw;
+}
+
+.directive-social-img-container {
+	display: flex;
+	justify-content: space-between;
+		width:100%;
+}
+
+.membership-img {
+	width: 15%;
+	height: 15%;
 }
 
 .contact-content-h1 {
