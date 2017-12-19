@@ -362,20 +362,28 @@ text-align: center;
 
 .directive-block-container {
 	display: inline-flex;
-	width: 80%;
+	width: 90%;
 	margin-top: 3%;
 	
 }
 
 .directive-text-block {
-	width: 120%;
+	width: 80%;
 	font-size: 1.8vw;
 	border: solid black 1px;
 }
+#right-block-directive {
+	margin-left: 4%;
+}
+
 
 .directive-block-h1 {
 	color: blue;
 	font-size: 3vw;
+}
+
+.right-block-directive {
+	margin-left: 5%;
 }
 
 .directive-benifits-h1 {
@@ -542,7 +550,3 @@ pointer-events: none;
   border-radius: 50%;
 
 }
-
-
-
-
