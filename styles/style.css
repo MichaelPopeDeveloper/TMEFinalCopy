@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #FFFFFF;
 }
 ol, ul {
 	/*list-style: none;*/
@@ -47,6 +48,9 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	overflow-x: hidden;
+}
 /*This Controls The Menu*/
 
 .menu {
@@ -80,7 +84,7 @@ table {
 .menu-header-text {
 	margin-top: 5%;
 	margin-bottom: 5%;
-font-size: 1vw;
+font-size: 1.1vw;
 color: white;
 text-align: center;
 
@@ -94,7 +98,7 @@ text-align: center;
 	display: inline-flex;
 	align-content: center;
 	align-items: center;
-	width: 100%;
+	width: 90%;
 }
 
 .menu-line {
@@ -326,7 +330,7 @@ text-align: center;
 .text-button {
 	position: relative;
 	z-index: 5;
-	font-size: 2vw;
+	font-size: 1.7vw;
 }
 
 
@@ -336,22 +340,33 @@ text-align: center;
 	color: white;
 }
 .main-content-h1 {
+	width: 60%;
+	text-align: center;
 	font-size: 3vw;
-	color: blue;
+	color: #FFDF00;
+	margin: 1% 0%;
+	background-color: #222222;
+	border-radius: 4px;
+	height: 30%;
 }
 
 .sub-content-h1 {
 	font-size: 1.9vw;
 	font-weight: bold;
-	color: blue;
+	margin-top: 2% 0%;
+	color: #FFDF00;
+	width: 55%;
+	background-color: #222222;
+	border-radius: 4px;
 
 }
 
 .choose-content-h1 {
 	font-size: 2.3vw;
-	color: #FFDF00;
+	color: blue;
 	font-weight: bold;
 	text-align: left;
+	margin: 3% 0%;
 }
 
 .directive-column-container {
@@ -368,18 +383,42 @@ text-align: center;
 }
 
 .directive-text-block {
+	display: inline-flex;
+	flex-direction: column;
 	width: 80%;
-	font-size: 1.8vw;
+	font-size: 1.5vw;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
 	border: solid black 1px;
 }
 #right-block-directive {
 	margin-left: 4%;
 }
+.directive-column-container .directive-block-container #right-block-directive {
+}
+.directive-column-container .directive-block-container #right-block-directive {
+}
+.directive-column-container .directive-block-container #right-block-directive {
+}
+.directive-column-container .directive-block-container #right-block-directive {
+}
+
+
+
+
+
 
 
 .directive-block-h1 {
+
 	color: blue;
 	font-size: 3vw;
+}
+
+#social-block-heading-text {
+	margin-left: 50%;
 }
 
 .right-block-directive {
@@ -387,19 +426,59 @@ text-align: center;
 }
 
 .directive-benifits-h1 {
-	color: blue;
+	text-align: center;
 	font-size: 3vw;
+	align-self: center;
+	margin-right: 10%;
+	margin-top: 1%;
+	color: #FFDF00;
+	width: 40%;
+	background-color: #222222;
+	border-radius: 4px;
 }
+
+.header-img-container {
+	display: flex;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 100%;
+	
+	
+}
+
+.header-img-small {
+	width: 15%;
+	height: 15%;
+	margin-left: 5%;
+}
+
+.header-img-small-support{
+	width: 20%;
+	height: 20%;
+	margin-left: 5%;
+}
+
 
 .directive-social-img-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-content: flex-end;
+	align-items: flex-end;
+	
+	
 		width:100%;
 }
 
 .membership-img {
 	width: 15%;
 	height: 15%;
+	margin-left: 4%;
+}
+
+#consumer-img {
+	width: 40%;
+	height: 40%;
+	margin-left: 4%;
 }
 
 .contact-content-h1 {
@@ -407,10 +486,14 @@ text-align: center;
 	color: blue;
 }
 
+#website-contact-h1 {
+	margin-top: 4%;
+}
+
 .contact-header {
 	display: inline-flex;
 	justify-content: space-around;
-	width: 100%;
+	width: 90%;
 
 }
 
@@ -440,7 +523,20 @@ text-align: center;
 
 #main-content-h1 {
 	font-size: 3vw;
-	color: blue;
+	
+	color: #FFDF00;
+	width: 60%;
+	background-color: #222222;
+	border-radius: 4px;
+}
+
+#vision-main-content-h1 {
+	text-align: center;
+	font-size: 3vw;
+	color: #FFDF00;
+	width: 80%;
+	background-color: #222222;
+	border-radius: 4px;
 }
 
 
@@ -476,9 +572,9 @@ text-align: center;
 
 
 #p-1 {
-max-width: 80%;
-font-size: 1.8vw;
-pointer-events: none;
+	max-width: 80%;
+	font-size: 1.5vw;
+	pointer-events: none;
 }
 
 .benifits {

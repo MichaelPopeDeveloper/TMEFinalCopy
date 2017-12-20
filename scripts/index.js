@@ -75,7 +75,7 @@ $("#circle3").css("background-color", "transparent");
 $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
-
+$("#circle7").css("background-color", "transparent");
  slide2Timer = setTimeout(slide2, slideTime);
 
 
@@ -90,7 +90,7 @@ $("#circle3").css("background-color", "transparent");
 $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
-
+$("#circle7").css("background-color", "transparent");
 slide3Timer = setTimeout(slide3, slideTime);
 
 
@@ -105,7 +105,7 @@ $("#circle2").css("background-color", "transparent");
 $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
-
+$("#circle7").css("background-color", "transparent");
 slide4Timer = setTimeout(slide4, slideTime);
 
 
@@ -119,7 +119,7 @@ $("#circle2").css("background-color", "transparent");
 $("#circle3").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
-
+$("#circle7").css("background-color", "transparent");
 slide5Timer = setTimeout(slide5, slideTime);
 
 
@@ -133,20 +133,36 @@ $("#circle2").css("background-color", "transparent");
 $("#circle3").css("background-color", "transparent");
 $("#circle4").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
+$("#circle7").css("background-color", "transparent");	
 
-slide1Timer = setTimeout(slide6, slideTime);
+slide6Timer = setTimeout(slide6, slideTime);
 
 
 }
 
 function slide6() {
-document.getElementById('main-content-video-1').src = 'videos/promo.mp4';
+document.getElementById('main-content-video-1').src = 'videos/ibo.mp4';
 $("#circle6").css("background-color", "orange");
 $("#circle1").css("background-color", "transparent");
 $("#circle2").css("background-color", "transparent");
 $("#circle3").css("background-color", "transparent");
 $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
+$("#circle7").css("background-color", "transparent");
+
+slide7Timer = setTimeout(slide7, slideTime);
+
+
+}
+	function slide7() {
+document.getElementById('main-content-video-1').src = 'videos/promo.mp4';
+$("#circle7").css("background-color", "orange");
+$("#circle1").css("background-color", "transparent");
+$("#circle2").css("background-color", "transparent");
+$("#circle3").css("background-color", "transparent");
+$("#circle4").css("background-color", "transparent");
+$("#circle5").css("background-color", "transparent");
+$("#circle6").css("background-color", "transparent");
 
 slide1Timer = setTimeout(slide1, slideTime);
 
@@ -163,7 +179,8 @@ clearTimeout(slide2Timer);
 clearTimeout(slide3Timer);
 clearTimeout(slide4Timer);
 clearTimeout(slide5Timer);
-
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);		
 slide1();
     });
 
@@ -173,6 +190,8 @@ clearTimeout(slide2Timer);
 clearTimeout(slide3Timer);
 clearTimeout(slide4Timer);
 clearTimeout(slide5Timer);
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);	
 
 slide2();
 // slide2Timer = setTimeout(slide2, slideTime);
@@ -185,6 +204,8 @@ clearTimeout(slide2Timer);
 clearTimeout(slide3Timer);
 clearTimeout(slide4Timer);
 clearTimeout(slide5Timer);
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);	
 
 slide3();
 });
@@ -195,6 +216,8 @@ clearTimeout(slide2Timer);
 clearTimeout(slide3Timer);
 clearTimeout(slide4Timer);
 clearTimeout(slide5Timer);
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);	
 
 slide4();
     });
@@ -205,8 +228,35 @@ clearTimeout(slide2Timer);
 clearTimeout(slide3Timer);
 clearTimeout(slide4Timer);
 clearTimeout(slide5Timer);
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);	
 
 slide5();
+    });
+	
+	$("#circle6").click(function(){        
+clearTimeout(slide1Timer);
+clearTimeout(slide2Timer);
+clearTimeout(slide3Timer);
+clearTimeout(slide4Timer);
+clearTimeout(slide5Timer);
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);	
+
+slide6();
+    });
+	
+	$("#circle7").click(function(){        
+clearTimeout(slide1Timer);
+clearTimeout(slide2Timer);
+clearTimeout(slide3Timer);
+clearTimeout(slide4Timer);
+clearTimeout(slide5Timer);
+clearTimeout(slide6Timer);
+clearTimeout(slide7Timer);
+	
+
+slide7();
     });
 
 

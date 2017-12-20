@@ -1,0 +1,576 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #FFFFFF;
+}
+ol, ul {
+	/*list-style: none;*/
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*This Controls The Menu*/
+
+.menu {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 18%;
+	height: 100vh;
+	background-color: #222222;
+}
+
+.menu-header-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+	height: 20%;
+	/*
+	for Testing
+	background-color: red;*/
+}
+
+.tme-menu-header {
+	color: #FFDF00;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.menu-header-text {
+	margin-top: 5%;
+	margin-bottom: 5%;
+font-size: 1vw;
+color: white;
+text-align: center;
+
+}
+
+.center-text {
+	text-align: left;
+}
+
+.contact-content {
+	display: inline-flex;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.menu-line {
+	width: 100%;
+	height: 0.15em;
+	background-color: #FFDF00;
+}
+
+.menu-box {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 50%;
+	height: 100%;
+	color: white;
+	/*
+	For testing
+	background-color: grey;*/
+	font-size: 1.5vw;
+	text-decoration: none;
+}
+
+.menu-box:hover {
+	background-color: #FFDF00;
+}
+
+.menu-catalog {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	width: 200%;
+	height: 8%;
+	/*
+	For Testing
+	background-color: green;*/
+}
+
+.sub-menu {
+	position: relative;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 50%;
+	background-color: black;
+
+}
+
+#ntf {
+	display: none;
+}
+
+#advocates {
+	display: none;
+}
+#blueprint {
+	display: none;
+}
+#media {
+	display: none;
+}
+#enlist {
+	display: none;
+}
+
+.sub-menu-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+	height: 3em;
+	font-size: 1.5vw;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+    background-color: #222222;
+
+}
+
+.sub-menu-box:hover {
+	background-color: #FFDF00;
+}
+
+/*This Controls The Main Content*/
+
+.main-content-header {
+	display: flex;
+	justify-content: center;
+	width: 82%;
+	margin-left: 18%;
+	/*background-color: green;*/
+	height: 20em;
+	pointer-events: none;
+}
+
+
+
+.message-header {
+	display: flex;
+	position: absolute;
+	justify-content: flex-end;
+	width: 82%;
+	margin-left: 18%;
+	height: 9em;
+}
+
+.message-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	width: 15%;
+	height: 70%;
+	/*background-color: blue;*/
+	border: 4px solid #FFDF00;
+
+}
+
+.img-header-container {
+	display: inline-flex;
+	justify-content: flex-start;
+	width: 100%;
+	align-content: flex-end;
+	align-items: flex-end;
+}
+
+.img-header-content {
+	margin-left: 20%;
+	width: 18%;
+	height: 8%;
+}
+
+.message-text {
+	font-size: 1.5vw;
+}
+
+.message-img {
+	width: 50%;
+	height: 40%;
+}
+
+.families-img {
+	margin: auto;
+	width: 50%;
+	height: 80%;
+}
+
+.vision-img {
+	width: 20em;
+	height: 100%;
+}
+
+.line {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	width: 100%;
+	height: 0.2em;
+	background-color: #FFDF00;
+
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	width: 82%;
+}
+
+.main-content-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	width: 82%;
+	margin-left: 18%;
+	pointer-events: none;
+	/*background-color: pink;*/
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	width: 82%;
+	margin-left: 18%;
+	/*background-color: black;*/
+}
+
+.footer-column {
+	margin-top: 4%;
+	margin-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-container {
+	width: 80%;
+	background-color: orange;
+}
+
+.footer-line {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	width: 100%;
+	height: 0.2em;
+	background-color: #FFDF00;
+	pointer-events: none;
+}
+
+.footer-img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.button {
+	position: relative;
+	z-index: 500;
+	background-color: green;
+	width: 15%;
+	height: 2em;
+}
+
+.text-button {
+	position: relative;
+	z-index: 5;
+	font-size: 1.7vw;
+}
+
+
+.footer-text {
+	font-size: 2vw;
+	text-decoration: none;
+	color: white;
+}
+.main-content-h1 {
+	width: 100%;
+	font-size: 3vw;
+	color: #FFDF00;
+	margin: 1% 0%;
+	background-color: #222222;
+	border-radius: 4px;
+}
+
+.sub-content-h1 {
+	font-size: 1.9vw;
+	font-weight: bold;
+	color: #FFDF00;
+	margin-top: 2% 0%;
+
+}
+
+.choose-content-h1 {
+	font-size: 2.3vw;
+	color: blue;
+	font-weight: bold;
+	text-align: left;
+	margin: 3% 0%;
+}
+
+.directive-column-container {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.directive-block-container {
+	display: inline-flex;
+	width: 90%;
+	margin-top: 3%;
+	
+}
+
+.directive-text-block {
+	display: inline-flex;
+	flex-direction: column;
+	width: 80%;
+	font-size: 1.5vw;
+	border: solid black 1px;
+}
+#right-block-directive {
+	margin-left: 4%;
+}
+
+
+
+.directive-block-h1 {
+	align-self: center;
+	color: blue;
+	font-size: 3vw;
+}
+
+#social-block-heading-text {
+	margin-left: 50%;
+}
+
+.right-block-directive {
+	margin-left: 5%;
+}
+
+.directive-benifits-h1 {
+	color: #FFDF00;
+	font-size: 3vw;
+	align-self: center;
+	margin-right: 10%;
+}
+
+.directive-social-img-container {
+	display: flex;
+	justify-content: center;
+		width:100%;
+}
+
+.membership-img {
+	width: 15%;
+	height: 15%;
+	margin-left: 4%;
+}
+
+#consumer-img {
+	width: 20%;
+	height: 20%;
+	margin-left: 4%;
+}
+
+.contact-content-h1 {
+	font-size: 2.1vw;
+	color: blue;
+}
+
+.contact-header {
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+.header-content-h1 {
+	font-size: 2.7vw;
+	color: blue;
+}
+
+.contact-container-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.contact-img {
+	width: 46%;
+	height: 46%;
+}
+
+#main-content-h1-membership {
+	font-size: 2vw;
+	color: #FFDF00;
+}
+
+#main-content-h1 {
+	font-size: 3vw;
+	color: blue;
+}
+
+
+
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.orange {
+	color: green;
+	font-weight: bold;
+
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+#p-1 {
+	max-width: 80%;
+	font-size: 1.5vw;
+	pointer-events: none;
+}
+
+.benifits {
+max-width: 80%;
+font-size: 1.8vw;
+pointer-events: none;
+}
+
+.main-content-container {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
+	margin-left: 23%;
+	pointer-events: none;
+	
+
+}
+
+.job-container {
+	width:82%;
+	height: 100vh;
+	margin-left: 18%;
+}
+
+.job-img {
+	width: 100%;
+	height: 100%;
+}
+
+.promo-container {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+}
+
+.video-main-content {
+	pointer-events: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 82%;
+	height: 100vh;
+	background-color: black;
+	margin-left: 18%;
+}
+
+.video-nav {
+	display: inline-flex;
+	justify-content: center;
+	position: absolute;
+	margin-left: 18%;
+	margin-top: -3%;
+	width: 82%;
+	height: 1em;
+/*For Testing
+	background-color: green;*/
+}
+
+.circle {
+  background: transparent;
+  border-style: solid;
+   border-width: 1px;
+  border-color: white;
+  width: 18px;
+  height: 18px;
+  margin-left: 0.2%;
+  border-radius: 50%;
+
+}
