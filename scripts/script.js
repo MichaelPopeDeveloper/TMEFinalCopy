@@ -57,10 +57,8 @@
 
 $(document).ready(function(){
 	
-	$('.main-content-container').hide();
-	
-	$( ".main-content-container" ).toggle( "scale" );
-	
+//	$('.main-content-container').hide();
+//	
 //	$('.main-content-container').fadeIn(4000);
 
 
