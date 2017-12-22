@@ -347,7 +347,7 @@ text-align: center;
 	color: white;
 }
 .main-content-h1 {
-	width: 80%;
+	width: 70%;
 	text-align: center;
 	font-size: 3vw;
 	color: #FFDF00;
@@ -458,11 +458,16 @@ text-align: center;
 	
 	
 }
+#bulb-img {
+	width: 8%;
+	height: 8%;
+}
+
 
 .header-img-small {
 	width: 15%;
 	height: 15%;
-	margin-left: 0%;
+	margin-left: 5%;
 }
 
 .header-img-small-support{
@@ -484,7 +489,7 @@ text-align: center;
 }
 
 .membership-img {
-	width: 15%;
+	width: 35%;
 	height: 100%;
 	margin-left: 4%;
 }
@@ -537,9 +542,9 @@ text-align: center;
 
 #main-content-h1 {
 	font-size: 3vw;
-	
+	text-align: center;
 	color: #FFDF00;
-	width: 80%;
+	width: 70%;
 	background-color: #222222;
 	border-radius: 4px;
 }
@@ -562,7 +567,7 @@ text-align: center;
 }
 
 .green {
-  color: forestgreen;
+  color: green;
   font-weight: bold;
 }
 .red {
