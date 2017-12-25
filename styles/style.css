@@ -633,6 +633,11 @@ pointer-events: none;
 	height: 100%;
 }
 
+.impact-img {
+	width: 80%;
+	height: 80%;
+}
+
 .promo-container {
 	display: flex;
 	width: 100vw;
