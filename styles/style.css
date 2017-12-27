@@ -201,6 +201,17 @@ text-align: center;
 	pointer-events: none;
 }
 
+.main-content-header-media {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 82%;
+	margin-left: 18%;
+	/*background-color: green;*/
+	height: 20em;
+	pointer-events: none;
+}
+
 
 
 .message-header {
@@ -357,6 +368,24 @@ text-align: center;
 	height: 30%;
 }
 
+.digital-video {
+	align-self: center;
+	width: 70%;
+	height: 70%;
+}
+
+.main-content-h1-media {
+	width: 70%;
+	text-align: center;
+	align-self: center;
+	font-size: 3vw;
+	color: #FFDF00;
+	margin: 1% 0%;
+	background-color: #222222;
+	border-radius: 4px;
+	height: 30%;
+}
+
 .sub-content-h1 {
 	font-size: 1.9vw;
 	font-weight: bold;
@@ -401,8 +430,8 @@ text-align: center;
 	width: 80%;
 	font-size: 1.5vw;
 	padding-top: 1%;
-	padding-right: 1%;
-	padding-left: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
 	padding-bottom: 1%;
 	border: solid black 1px;
 }
@@ -428,6 +457,11 @@ text-align: center;
 
 	color: blue;
 	font-size: 3vw;
+}
+
+#coming-soon-box-text {
+	font-size: 1.3vw;
+	color: red;
 }
 
 #social-block-heading-text {
@@ -460,7 +494,7 @@ text-align: center;
 }
 
 #innovative-solutions-container {
-	margin-top: 0.1%;
+	margin-top: -12%;
 }
 #bulb-img {
 	width: 8%;
@@ -634,6 +668,7 @@ pointer-events: none;
 }
 
 .impact-img {
+	margin-top: 5%;
 	width: 80%;
 	height: 80%;
 }

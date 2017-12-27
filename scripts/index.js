@@ -76,7 +76,7 @@ $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
 $("#circle7").css("background-color", "transparent");
- slide2Timer = setTimeout(slide2, slideTime);
+ slide2Timer = setTimeout(slide2, 8500);
 
 
 
@@ -91,7 +91,7 @@ $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
 $("#circle7").css("background-color", "transparent");
-slide3Timer = setTimeout(slide3, slideTime);
+slide3Timer = setTimeout(slide3, 9000);
 
 
 
@@ -106,7 +106,7 @@ $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
 $("#circle7").css("background-color", "transparent");
-slide4Timer = setTimeout(slide4, slideTime);
+slide4Timer = setTimeout(slide4, 9000);
 
 
 }
@@ -120,7 +120,7 @@ $("#circle3").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
 $("#circle7").css("background-color", "transparent");
-slide5Timer = setTimeout(slide5, slideTime);
+slide5Timer = setTimeout(slide5, 9000);
 
 
 }
@@ -135,7 +135,7 @@ $("#circle4").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
 $("#circle7").css("background-color", "transparent");	
 
-slide6Timer = setTimeout(slide6, slideTime);
+slide6Timer = setTimeout(slide6, 9000);
 
 
 }
@@ -150,7 +150,7 @@ $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle7").css("background-color", "transparent");
 
-slide7Timer = setTimeout(slide7, slideTime);
+slide7Timer = setTimeout(slide7, 9000);
 
 
 }
@@ -164,7 +164,7 @@ $("#circle4").css("background-color", "transparent");
 $("#circle5").css("background-color", "transparent");
 $("#circle6").css("background-color", "transparent");
 
-slide1Timer = setTimeout(slide1, slideTime);
+slide1Timer = setTimeout(slide1, 8000);
 
 
 }
