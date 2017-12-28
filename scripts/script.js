@@ -216,6 +216,23 @@ $(".text-button").css("z-index", "3");
     
   });
 
+	var audio = document.getElementById("messageAudio"); 
+	var playing = false; 
+	
+	$('.message-container').click(function() {
+		
+		if (playing == false) {
+		audio.play(); 
+			playing = true;
+		}
+		
+		else {
+		audio.pause(); 
+			playing = false;
+		}
+		
+		
+	})
 
 
 

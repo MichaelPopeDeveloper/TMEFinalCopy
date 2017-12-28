@@ -236,6 +236,10 @@ text-align: center;
 
 }
 
+.message-container:hover {
+	
+}
+
 .img-header-container {
 	display: inline-flex;
 	justify-content: flex-start;
