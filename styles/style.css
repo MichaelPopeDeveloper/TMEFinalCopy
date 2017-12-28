@@ -208,7 +208,7 @@ text-align: center;
 	width: 82%;
 	margin-left: 18%;
 	/*background-color: green;*/
-	height: 20em;
+	height:70vh;
 	pointer-events: none;
 }
 
@@ -267,6 +267,18 @@ text-align: center;
 .families-img {
 	margin: auto;
 	width: 50%;
+	height: 80%;
+}
+
+.media-img {
+	margin: auto;
+	width: 80%;
+	height: 80%;
+}
+
+.meadia-img {
+	margin: auto;
+	width: 80%;
 	height: 80%;
 }
 
